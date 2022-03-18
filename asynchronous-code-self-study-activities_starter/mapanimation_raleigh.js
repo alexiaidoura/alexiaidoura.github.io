@@ -2,10 +2,9 @@
 
 
   // DONE: add your own access token
-  //mapboxgl.accessToken =
-    //'pk.eyJ1IjoiYWxleGlhcCIsImEiOiJjbDBwZGlxNm8xZHBpM2R0a2g3bXh2bmg2In0.Vwg8n-yrmyv8ZmV6WqEuWQ';
-    mapboxgl.accessToken =
-    'MAPBOX_RALEIGHMAP_SECRET';
+  mapboxgl.accessToken =
+    'pk.eyJ1IjoiYWxleGlhcCIsImEiOiJjbDBwZGlxNm8xZHBpM2R0a2g3bXh2bmg2In0.Vwg8n-yrmyv8ZmV6WqEuWQ';
+    //MAPBOX_RALEIGHMAP_SECRET; //TODO: IMPLEMENT SECRETS
 
   // DONE: create the map object using mapboxgl.map() function
   let map = new mapboxgl.Map({
@@ -42,8 +41,8 @@
      "method": "GET",
      "headers": {
        "x-rapidapi-host": "transloc-api-1-2.p.rapidapi.com",
-       //"x-rapidapi-key": "b7171ad4d3msh01b70be2d7d502ep1ab363jsnb55cd1cacc00"
-       "x-rapidapi-key": "RALEIGH_MAP_SECRET"
+       "x-rapidapi-key": "b7171ad4d3msh01b70be2d7d502ep1ab363jsnb55cd1cacc00"
+       //"x-rapidapi-key": RALEIGH_MAP_SECRET //TODO: IMPLEMENT SECRETS
      }
    });
    const json = await response.json();
