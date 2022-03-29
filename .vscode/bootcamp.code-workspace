@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "eyes",
+			"path": "../../eyes/eyes"
+		},
+		{
+			"name": "pacmen",
+			"path": "../../pacmen/pacmen"
+		},
+		{
+			"name": "mapofraleighbusstops",
+			"path": "../../busStops/mapofraleighbusstops"
+		}
+	],
+	"settings": {}
+}
