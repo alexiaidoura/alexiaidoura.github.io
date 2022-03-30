@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">IDOURA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,12 +21,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!--ul class="navbar-nav me-auto mb-2 mb-lg-0"-->
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" class="link-danger">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="projects.html" class="link-danger">Projects</a>
               </li>
               
             </ul>
@@ -34,10 +34,30 @@
         </div>
       </nav>
       <h1>About me</h1>
-      <p><img src="/images/pfp.jpeg" alt="profile pic"></p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+                  <h5>Who am i</h5>
+                  <p><img src="/images/pfp.jpeg" alt="profile pic" width="200" class="rounded-circle float-start">I'm a cybersecurity engineer in an MIT full stack developer bootcamp. Why? For fun, to learn more modern coding practices, to uplevel my ctf skills, to work better with my developers, to have a better coding foundation for my MS program courses, and more. </p>
+                  <p>I live in North Carolina and work remotely. I have four daughters. We also have two cats, a dog, a guinea pig, and a hedgehog. In my free time, I read in the hammock, garden, crack whips, work out, research genealogy, make botanical sketches, build electronics, host get togethers, and many more things.</p>
+                  <br>
+                  <h5>Connect with me</h5>
+                  <p>I am <a href="https://github.com/alexiaidoura"  class="link-danger">alexiaidoura</a> on github.</p>
+                  <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/alexiapidoura/"  class="link-danger">alexiapidoura</a></p>
+                </div>
+            <div class="col">
+              <h5>See me in action</h5>
+              <!-- TODO: #3 replace with my video -->
+              <!--iframe height="480" width="500" src="https://www.youtube.com/embed/il_t1WVLNxk">
+              </iframe-->
+              <iframe height="480" width="500" src="https://www.youtube.com/embed/il_t1WVLNxk">
+              </iframe>
+           </div>
+          </div>
+        </div>
+      
+
       <!-- TODO: #2 Include <2m video intro embedded from youtube, bio <50w photo github username linkedin link contact info, nav bar with link to projects page-->
-      <!-- TODO: #3 replace with my video -->
-    <iframe height="480" width="500" src="https://www.youtube.com/embed/il_t1WVLNxk">
-    </iframe>
+      
 </body>
 </html>

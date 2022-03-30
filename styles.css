@@ -1,8 +1,24 @@
 /* DONE: #4 override some bootstrap styles -- font family? */
 head {
     font-family:'Courier New', Courier, monospace !important;
+    font-weight: bold;
+}
+
+h5 {
+    color: red;
+    font-weight: bold;
 }
 
 body {
     font-family:'Courier New', Courier, monospace !important;
+}
+
+/*img .pfp {
+    float: left; 
+    margin: 5px;
+} didn't need this, could use existing bootstrap class float-start*/
+
+.nav-pills {
+    color: red;
+    /*background-color: red; turned inactive pill red*/
 }
