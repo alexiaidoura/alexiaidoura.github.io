@@ -1,4 +1,4 @@
-/* TODO: #4 override some bootstrap styles -- font family? */
+/* DONE: #4 override some bootstrap styles -- font family? */
 head {
     font-family:'Courier New', Courier, monospace !important;
 }
