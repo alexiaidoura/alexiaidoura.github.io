@@ -5,7 +5,7 @@ head {
 }
 
 h5 {
-    color: red;
+    color: blue;
     font-weight: bold;
 }
 
@@ -19,6 +19,5 @@ body {
 } didn't need this, could use existing bootstrap class float-start*/
 
 .nav-pills {
-    color: red;
     /*background-color: red; turned inactive pill red*/
 }
